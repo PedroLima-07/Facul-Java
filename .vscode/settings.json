@@ -1,12 +1,13 @@
 {
     "java.project.sourcePaths": [
+        "2-Semestre/Aula1",
         "1-Semestre/Avaliação",
         "1-Semestre/Aula9",
         "1-Semestre/Aula4",
         "1-Semestre/Aula3",
         "1-Semestre/Aula2",
         "1-Semestre",
-        "2-Semestre/Aula1"
+        "2-Semestre/Aula2.java"
     ],
     "java.project.referencedLibraries": []
 }
