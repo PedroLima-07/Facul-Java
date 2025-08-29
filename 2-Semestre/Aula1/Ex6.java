@@ -11,15 +11,21 @@ public class Ex6 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Quanto esta o salario minimo:");
         double salarioMinimo = sc.nextDouble();
+
         double valorQuilowatt = salarioMinimo / 500;
+
         System.out.println("O valor de 1 quilowatts e R$" + valorQuilowatt);
         System.out.println("Quantos quilowatts vc gastou esse mes?");
         int gasto = sc.nextInt();
+
         double contaDeLuz = gasto * valorQuilowatt;
+
         System.out.println("Sua conta esse mes foi de R$" + contaDeLuz);
         double contaComDesconto = (85 * contaDeLuz) / 100;
+        
         System.out.println("Se voce obtivesse 15% de desconto na sua conta de luz ela sairia R$" + contaComDesconto);
 
     }
