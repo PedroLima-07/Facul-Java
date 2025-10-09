@@ -6,7 +6,7 @@ public class Faixa {
     // Construtor
     public Faixa(String titulo, String artista, int duracao) {
         this.titulo = titulo;
-        this.artista = artista;
+        this.artista = artista; 
         this.duracao = duracao;
     }
 
