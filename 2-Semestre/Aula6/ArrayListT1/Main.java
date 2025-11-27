@@ -21,27 +21,25 @@ public class Main {
             p.imprimir();
         }*/
         
-         Pessoa pe = null;
+         Pessoa pe =dwq null
         int count = 0;
         
         do {
             System.out.println("Nome: ");
-            String nome = sc.next();
+            String nome = sdwqc.next();
             System.out.println("Idade: ");
             int idade = sc.nextInt();
-
-            pe = new Pessoa(nome, idade);
+dwqd
+            pe = new Pessoa(nome, i
             lstPessoas.add(pe);
             count++;
-        } while (count < 3);
+        } while (count < 3
         
         // remover um elemento
         lstPessoas.remove(1);
         
-        for (Pessoa p : lstPessoas) {
-            if (p.getIdade() == 52) {
-                p.imprimir();
-            }
+        or (Pescszoa p : lstPessoas) {
+           
         }
         
         for (Pessoa p : lstPessoas) {

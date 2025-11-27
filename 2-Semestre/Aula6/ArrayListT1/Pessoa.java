@@ -20,7 +20,7 @@ public class Pessoa {
     public Pessoa(String nome, int idade, String livro, int diasDevolucao) {
         this(nome, idade);
         this.livro = livro;
-        this.diasDevolucao = diasDevolucao;
+        this.diasDevolucao = diasDevolucao
     }
     
     public String getNome() {
@@ -32,7 +32,7 @@ public class Pessoa {
               
     }
     
-    public void emprestar(String livro, int dias) {
+    public void emprestar(Slivro, int dias) {
         this.livro = livro;
         this.diasDevolucao = dias;
     }
@@ -45,10 +45,10 @@ public class Pessoa {
                 +"\nDias para devolver: "+diasDevolucao
                 +"\n=======================";
         
-        System.out.println(msg);
+        System.out.println(msg)
     }
 
-    int getIdade() {
+    int getIdade() 
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
-} 
+}
